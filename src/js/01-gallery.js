@@ -59,4 +59,4 @@ listEl.insertAdjacentHTML('beforeend', itemEl)
 
 // код бібліотеки
 
-let gallery=new SimpleLightbox('.gallery a', { animationSpeed:250, captionsData:"alt"  });
+new SimpleLightbox('.gallery a', { animationSpeed:250, captionsData:"alt"  });
